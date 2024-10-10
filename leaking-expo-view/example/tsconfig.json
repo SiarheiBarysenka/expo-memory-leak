@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "leaking-expo-view": ["../src/index"],
+      "leaking-expo-view/*": ["../src/*"]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "leaking-expo-view",
+  "version": "0.1.0",
+  "description": "My new module",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module",
+    "open:ios": "xed example/ios",
+    "open:android": "open -a \"Android Studio\" example/android"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "leaking-expo-view",
+    "LeakingExpoView"
+  ],
+  "repository": "https://github.com/SiarheiBarysenka/expo-memory-leak",
+  "bugs": {
+    "url": "https://github.com/SiarheiBarysenka/expo-memory-leak/issues"
+  },
+  "author": "Siarhei Barysenka <sbarysenka@atlassian.com> (https://github.com/SiarheiBarysenka)",
+  "license": "MIT",
+  "homepage": "https://github.com/SiarheiBarysenka/expo-memory-leak#readme",
+  "dependencies": {
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/native-stack": "^6.11.0",
+    "react-native-safe-area-context": "^4.11.0",
+    "react-native-screens": "^3.34.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "expo-module-scripts": "^3.5.2",
+    "expo-modules-core": "^1.12.24"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}
